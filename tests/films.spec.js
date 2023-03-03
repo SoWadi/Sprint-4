@@ -1,4 +1,5 @@
 const movies = require('../src/data');
+
 const {
   getAllDirectors,
   getMoviesFromDirector,
@@ -49,6 +50,7 @@ describe('Function "getAllDirectors"', () => {
     ]);
   });
 });
+
 
 // Exercise 2
 describe('Function "getMoviesFromDirector"', () => {
@@ -442,3 +444,4 @@ describe('Function "bestFilmOfYear"', () => {
   });
 
 });
+ 
